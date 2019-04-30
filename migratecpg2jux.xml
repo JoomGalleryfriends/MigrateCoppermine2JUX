@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset name="migration" description="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_NOTES">
+    <field
+      id="path2joomla-ACL2acl"
+      name="path"
+      type="text"
+      class="inputbox span12"
+      label="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_PATH2CPG_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_PATH2CPG_DESC"
+      required="true"
+    />
+    <field
+      id="copy_images-ACL2acl"
+      name="copy_images"
+      type="radio"
+      class="btn-group"
+      label="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_COPY_IMAGES_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_COPY_IMAGES_DESC"
+      default="0"
+    >
+      <option value="0">JNO</option>
+      <option value="1">JYES</option>
+    </field>
+    <field
+      id="prefix-ACL2acl"
+      name="prefix"
+      type="text"
+      class="inputbox span3"
+      label="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_PREFIX_LABEL"
+      description="FILES_JOOMGALLERY_MIGRATION_CPG2JUX_PREFIX_DESC"
+      size="10"
+      required="true"
+    />
+    <field
+      name="database"
+      type="joomdatabase"
+      prefix="false"
+    />
+  </fieldset>
+</form>
