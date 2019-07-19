@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="file" version="3.0" method="upgrade">
-  <name>FILES_JOOMGALLERY_MIGRATION_CPG2JUX</name>
+  <name>Migration script from Coppermine gallery to JoomGallery 3 JUX</name>
   <creationDate>2019/04/16</creationDate>
   <author>JoomGallery::ProjectTeam</author>
   <copyright>This component is released under the GNU/GPL License</copyright>
   <authorUrl>www.joomgalleryfriends.net</authorUrl>
   <version>3.0.0 Beta1</version>
-  <description>FILES_JOOMGALLERY_MIGRATION_CPG2JUX_DESC</description>
+  <description>This script is able to migrate Coppermine gallery to JoomGallery 3.x JUX.</description>
   <fileset>
     <files target="administrator/components/com_joomgallery/helpers/migration">
       <file>migratecpg2jux.php</file>
